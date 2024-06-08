@@ -1,0 +1,53 @@
+.find-ride-component {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.find-ride-component h2 {
+  text-align: center;
+  color: #333;
+}
+
+.ride-form > div {
+  margin-bottom: 15px;
+}
+
+.ride-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.ride-form input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.ride-form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.ride-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.ride-form button:hover {
+  background-color: #0056b3;
+}

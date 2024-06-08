@@ -1,0 +1,25 @@
+.user-countdown-component {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-countdown-component h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.countdown-timers > div {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.countdown-timers h2 {
+  font-weight: bold;
+  color: #333;
+}
